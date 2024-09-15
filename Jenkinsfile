@@ -7,6 +7,10 @@ pipeline {
             sh 'echo build'
         }
     }
+    statge('test'){
+        steps{
+            sh 'echo test'
+        }
+    }
  }
-
 }
