@@ -1,7 +1,7 @@
 pipeline {
  agent any 
 
-enviromment{
+environment{
     BRANCH_NAME = 'main'
     GIT_URL = 'https://github.com/nibia26/awscicd.git'
 }
