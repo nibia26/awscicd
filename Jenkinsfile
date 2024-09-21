@@ -5,7 +5,7 @@ environment{
     BRANCH_NAME = 'main'
     GIT_URL = 'https://github.com/nibia26/awscicd.git'
     IMAGE_TAG = 'nibia26/awscicd'
-    IMAGE_VERSION = ${BUILD_NUMBER}
+    IMAGE_VERSION = "${BUILD_NUMBER}"
 }
  
  stages {
